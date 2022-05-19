@@ -71,6 +71,6 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
     // если shippingSum равно нулю, то freeShipping должна быть равна true, иначе freeShipping должна быть равна false
     freeShipping =!shippingSum;
     // Конец решения задачи №2.3.
-
+    
     return {discount: discountSum, freeShipping, shipping: shippingSum, total: totalSum};
 }
